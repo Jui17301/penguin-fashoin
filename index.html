@@ -16,6 +16,19 @@
   </style>
 </head>
 <body>
+  <nav class="flex md:flex-row justify-between items-start p-8 flex-col">
+    <div class="nav-left">
+      <img src="icons/logo.png" alt="" class="w-80">
+    </div>
+    <div class="nav-right">
+      <ul class="flex justify-evenly gap-20">
+        <li><a href="">Home</a></li>
+        <li><a href="">Product</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
  <header class="bg-[#FFFBF0] px-4 md:px-32 py-20">
  <section class="banner flex flex-col md:flex-row justify-around items-center ">
   <div class="banner-content space-y-3">
@@ -151,39 +164,43 @@
 
     </div>
   </section>
-  <section class="seller-section flex justify-between items-center w-full">
-    <div class="seller-section-content w-1/2 flex-col">
-     <div class="seller-find flex justify-around items-center  ">
+
+
+  <section class="seller-section flex md:flex-row justify-between flex-col   items-center  mb-8 m-8">
+    <div class="seller-section-content  flex w-3/9 flex-col  ">
+     <div class="seller-find flex justify-around items-center border-2 border-indigo-500/50 rounded-lg mb-4">
       <img src="icons/house.png" alt="" class="w-20 h-20">
-      <div class="w-1/2">
+      <div >
         <p class="text-[#363958] font-bold font-4xl">Find the Perfect Fit</p>
         <p class="text-[#3E3E3E] text-xxl">Everybody is different, which is why we
-          offer styles for every body.</pn>
+          offer styles for every body.</p>
       </div>
      </div>
-     <div class="seller-find flex justify-around items-center  ">
-      <img src="icons/house.png" alt="" class="w-20 h-20">
-      <div class="w-1/2">
-        <p class="text-[#363958] font-bold font-4xl">Find the Perfect Fit</p>
-        <p class="text-[#3E3E3E] text-xxl">Everybody is different, which is why we
-          offer styles for every body.</pn>
+     <div class="seller-find flex justify-around items-center border-2 border-indigo-500/50 rounded-lg mb-4">
+      <img src="icons/question.png" alt="" class="w-20 h-20">
+      <div >
+        <p class="text-[#363958] font-bold font-4xl">Contact Our Seller</p>
+        <p class="text-[#3E3E3E] text-xxl">They are here to help you. That's quite 
+          literally what we pay them for.</p>
       </div>
      </div>
-     <div class="seller-find flex justify-around items-center  ">
-      <img src="icons/house.png" alt="" class="w-20 h-20">
-      <div class="w-1/2">
-        <p class="text-[#363958] font-bold font-4xl">Find the Perfect Fit</p>
-        <p class="text-[#3E3E3E] text-xxl">Everybody is different, which is why we
-          offer styles for every body.</pn>
+
+     <div class="seller-find flex justify-around items-center border-2 border-indigo-500/50 rounded-lg mb-4">
+      <img src="icons/box.png" alt="" class="w-20 h-20">
+      <div >
+        <p class="text-[#363958] font-bold font-4xl">Free Exchanges</p>
+        <p class="text-[#3E3E3E] text-xxl">One of the many reasons you can shop
+          with peace of mind.</p>
       </div>
      </div>
     </div>
-    <div class="seller-section-img">
-<img src="images/shopping.png" alt="" class="w-1/2">
+    <div class="seller-section-img w-1/2">
+<img src="images/shopping.png" alt="" class="w-3/9">
     </div>
+    
   </section>
  </main>
- <footer class="text-center bg-violet-400 text-l p-10">
+ <footer class="text-center bg-violet-400 text-l p-10 w-full mx-4">
   <p class="font-bold">Penguin Fashion</p>
   <p>@2023 Sumaiya Siddiqa Jui</p>
  </footer>
